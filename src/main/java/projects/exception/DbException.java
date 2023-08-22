@@ -3,10 +3,6 @@ package projects.exception;
 @SuppressWarnings("serial")
 public class DbException extends RuntimeException {
 
-	public DbException() {
-		// TODO Auto-generated constructor stub
-	}
-
 	public DbException(String message) {
 		super(message);
 		// TODO Auto-generated constructor stub
